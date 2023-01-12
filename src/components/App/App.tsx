@@ -3,12 +3,14 @@ import { v4 as uuidv4 } from "uuid";
 
 import { useInput } from "../hooks/useInput.hook";
 
-import Header from "../Header/Header";
-import SearchBar from "../SearchBar/SearchBar";
-import TodoList from "../TodoList/TodoList";
-import AddTodoItem from "../AddTodoItem/AddTodoItem";
+import { Header } from "../Header";
+import { SearchBar } from "../SearchBar";
+import { TodoList } from "../TodoList";
+import { AddTodoItem } from "../AddTodoItem";
 
 import { AttributesOfListItem } from "./App.enums";
+
+import { countOfStats, searchedListItems } from "./App.helpers";
 
 import styles from "./App.module.scss";
 
@@ -19,11 +21,11 @@ export interface INewItem {
   id: string;
 }
 
-function App() {
+const App = () => {
   const [list, setList] = useState<INewItem[]>([]);
 
   const { value: searchedValue, onChange: onChangeSearchedValue } =
-    useInput('');
+    useInput("");
 
   const newItem = (label: string): INewItem => ({
     label,
@@ -32,11 +34,8 @@ function App() {
     id: uuidv4(),
   });
 
-  const addNewItemList = (label: string,): void | boolean => {
-    if (label.trim()) {
-      setList((prevState) => [...prevState, newItem(label)]);
-      return true;
-    }
+  const addNewItemList = (label: string): void => {
+    label.trim() && setList((prevState) => [...prevState, newItem(label)]);
   };
 
   const switchCurrentAttribute =
@@ -58,34 +57,25 @@ function App() {
   const deleteCurrentListItem = (id: string): void =>
     setList((prevState) => prevState.filter((item) => item.id !== id));
 
-  const searchedListItems = (label: string): INewItem[] =>
-    list.filter((item) => item.label.toLowerCase().includes(label.trim()));
-
-  const countOfStats = (attribute: AttributesOfListItem): number =>
-    list.reduce((acc, item) => {
-      if (item[attribute]) return acc + 1;
-      return acc;
-    }, 0);
-
   return (
     <div className={styles.wrapper}>
-      <Header countOfStats={countOfStats} />
+      <Header countOfStats={countOfStats(list)} />
       <SearchBar
         onChangeSearchedValue={onChangeSearchedValue}
         searchedValue={searchedValue}
       />
       <TodoList
+        searchedListItems={searchedListItems(list)}
         {...{
           changeCompleted,
           changeImportant,
           deleteCurrentListItem,
           searchedValue,
-          searchedListItems,
         }}
       />
       <AddTodoItem addNewItemList={addNewItemList} />
     </div>
   );
-}
+};
 
 export default App;

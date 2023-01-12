@@ -2,7 +2,7 @@ import React from "react";
 import { useInput } from "../hooks/useInput.hook";
 
 type Props = {
-  addNewItemList: (label: string) => void | boolean;
+  addNewItemList: (label: string) => void;
 };
 
 const AddTodoItem = ({ addNewItemList }: Props) => {
@@ -18,7 +18,10 @@ const AddTodoItem = ({ addNewItemList }: Props) => {
         placeholder="Add"
       />
       <input
-        onClick={() => value && addNewItemList(value) && clearValue()}
+        onClick={() => {
+          addNewItemList(value);
+          value && clearValue();
+        }}
         className="btn btn-primary"
         type="button"
         value="Add"

@@ -27,3 +27,5 @@ const Counter = ({ countOfStats }: Props) => (
 );
 
 export default Counter;
+
+

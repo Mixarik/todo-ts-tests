@@ -2,53 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99db7bda-1bfd-429e-a958-b23da1d64e53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Globals.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AddTodoItem/AddTodoItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AddTodoItem/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.enums.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoItem/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/hooks/useInput.hook.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddTodoItem/AddTodoItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/App.helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/tests/App.helpers.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/tests/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Counter/Counter.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoItem/TodoItem.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddTodoItem/AddTodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddTodoItem/AddTodoItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddTodoItem/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddTodoItem/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter/Counter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/Counter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoItem/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/TodoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoList/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/TodoList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,31 +72,82 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\App\tests" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\TodoList" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\TodoItem" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\SearchBar" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\hooks" />
-      <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\Header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\notwin\progr\pet projects\todo-ts\src\Asd" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\hooks" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\TodoList" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\TodoItem" />
       <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\SearchBar" />
-      <recent name="C:\notwin\progr\pet projects\todo-ts\src\components\Header" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="getSum" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test TodoItem" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/TodoItem/TodoItem.test.tsx" />
+      <test-names>
+        <test-name value="test TodoItem" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test TodoItem.test TodoItem important change class" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/helpers.test.ts" />
+      <test-file value="$PROJECT_DIR$/src/components/TodoItem/TodoItem.test.tsx" />
       <test-names>
-        <test-name value="getSum" />
+        <test-name value="test TodoItem" />
+        <test-name value="test TodoItem important change class" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test TodoItem.test TodoItem include props label" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/TodoItem/TodoItem.test.tsx" />
+      <test-names>
+        <test-name value="test TodoItem" />
+        <test-name value="test TodoItem include props label" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test TodoItem.test TodoItem tabIndex" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/TodoItem/TodoItem.test.tsx" />
+      <test-names>
+        <test-name value="test TodoItem" />
+        <test-name value="test TodoItem tabIndex" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -124,20 +164,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
-        <item itemvalue="Jest.getSum" />
+        <item itemvalue="Jest.All Tests" />
+        <item itemvalue="Jest.test TodoItem.test TodoItem tabIndex" />
+        <item itemvalue="Jest.test TodoItem" />
+        <item itemvalue="Jest.test TodoItem.test TodoItem important change class" />
+        <item itemvalue="Jest.test TodoItem.test TodoItem include props label" />
       </list>
     </recent_temporary>
   </component>
@@ -154,8 +187,22 @@
       <workItem from="1670943225266" duration="11273000" />
       <workItem from="1671032525867" duration="6681000" />
       <workItem from="1671369921217" duration="1418000" />
-      <workItem from="1671553949128" duration="929000" />
+      <workItem from="1671553949128" duration="6357000" />
+      <workItem from="1671722001600" duration="6953000" />
+      <workItem from="1671729401332" duration="373000" />
+      <workItem from="1671893766576" duration="7334000" />
+      <workItem from="1671903952535" duration="722000" />
+      <workItem from="1672326843770" duration="1314000" />
+      <workItem from="1672759796617" duration="44000" />
     </task>
+    <task id="LOCAL-00001" summary="s">
+      <created>1671555253942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671555253942</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,36 +210,94 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#ESLint" timestamp="1670944275752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1670944275752" />
+    <state x="534" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1671724874759">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="534" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1671724874759" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1671036569456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1671036569456" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1670954467781">
+    <state x="393" y="5" key="CommitChangelistDialog2" timestamp="1671555252777">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1670954467781" />
-    <state width="1515" height="307" key="GridCell.Tab.0.bottom" timestamp="1671555229323">
+    <state x="393" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1671555252777" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1672759839451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1671555229323" />
-    <state width="1515" height="307" key="GridCell.Tab.0.center" timestamp="1671555229323">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1672759839451" />
+    <state width="1515" height="525" key="GridCell.Tab.0.bottom" timestamp="1671904675537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1671555229323" />
-    <state width="1515" height="307" key="GridCell.Tab.0.left" timestamp="1671555229323">
+    <state width="1515" height="525" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1671904675537" />
+    <state width="1515" height="525" key="GridCell.Tab.0.center" timestamp="1671904675537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1671555229323" />
-    <state width="1515" height="307" key="GridCell.Tab.0.right" timestamp="1671555229323">
+    <state width="1515" height="525" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1671904675537" />
+    <state width="1515" height="525" key="GridCell.Tab.0.left" timestamp="1671904675537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1671555229323" />
+    <state width="1515" height="525" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1671904675537" />
+    <state width="1515" height="525" key="GridCell.Tab.0.right" timestamp="1671904675537">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="525" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1671904675537" />
+    <state width="1515" height="199" key="GridCell.Tab.1.bottom" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.1.center" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.1.left" timestamp="1671561691652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1671561691652" />
+    <state width="1515" height="199" key="GridCell.Tab.1.right" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.2.bottom" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.2.center" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.2.left" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.2.right" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.3.bottom" timestamp="1671561691654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1671561691654" />
+    <state width="1515" height="199" key="GridCell.Tab.3.center" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.3.left" timestamp="1671561691653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1671561691653" />
+    <state width="1515" height="199" key="GridCell.Tab.3.right" timestamp="1671561691654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="199" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1671561691654" />
     <state x="350" y="64" key="SettingsEditor" timestamp="1670945413990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -201,5 +306,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="144" width="738" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1671040046886" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1671899605113">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1671899605113" />
   </component>
 </project>

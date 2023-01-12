@@ -56,5 +56,11 @@
         "name": "typescript-plugin-css-modules"
       }
     ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/index.js"
+    ]
   }
 }
