@@ -12,5 +12,5 @@ This is my first project that was build on TypeScript and I used a unit tests
 </ul>
 
 <h2>Install</h2>
-  git clone [https://github.com/Mixarik/pizzav2.git   ](https://github.com/Mixarik/todo-ts-tests.git)
+  git clone https://github.com/Mixarik/todo-ts-tests.git 
 
